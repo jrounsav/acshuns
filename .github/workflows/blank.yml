@@ -34,7 +34,7 @@ jobs:
         echo test, and deploy your project.
   # More stufff
   follow-up:
-    runs-name: Custom chex 
+    name: Custom chex 
 
     - name: Check log
       run: echo If this got hit then you are in trouble
