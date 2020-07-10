@@ -36,5 +36,7 @@ jobs:
   follow-up:
     name: Custom chex 
 
+    runs-on: macos-latest
+
     - name: Check log
       run: echo If this got hit then you are in trouble
